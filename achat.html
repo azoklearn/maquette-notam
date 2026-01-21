@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achat - Notam Watches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader-overlay" class="loader-overlay">
+        <img src="logo.jpg" alt="Notam Watches" class="loader-logo">
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <img src="logo.jpg" alt="Notam Watches" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-logo">
+                        <a href="index.html" class="nav-logo-link">
+                            <img src="logo.jpg" alt="Notam Watches" class="nav-menu-logo-img">
+                        </a>
+                    </li>
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="achat.html" class="nav-link">Achat</a></li>
+                    <li><a href="vente.html" class="nav-link">Vente</a></li>
+                    <li><a href="qui-sommes-nous.html" class="nav-link">Qui sommes nous</a></li>
+                    <li><a href="nous-contacter.html" class="nav-link">Nous contacter</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Acheter une Montre</h1>
+            <p class="page-subtitle">Découvrez notre sélection de montres d'exception</p>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="collection">
+        <div class="container">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="category">Catégorie</label>
+                    <select id="category" class="filter-select">
+                        <option value="all">Toutes</option>
+                        <option value="classique">Classique</option>
+                        <option value="sport">Sport</option>
+                        <option value="vintage">Vintage</option>
+                        <option value="luxe">Luxe</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="price">Prix</label>
+                    <select id="price" class="filter-select">
+                        <option value="all">Tous les prix</option>
+                        <option value="0-3000">Moins de 3 000 €</option>
+                        <option value="3000-5000">3 000 € - 5 000 €</option>
+                        <option value="5000+">Plus de 5 000 €</option>
+                    </select>
+                </div>
+            </div>
+            <div class="watches-grid">
+                <a href="produit.html?id=rolex-datejust-1" class="watch-card">
+                    <div class="watch-image">
+                        <img src="rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg" alt="Rolex Datejust">
+                    </div>
+                    <div class="watch-info">
+                        <h3 class="watch-name">Rolex Datejust</h3>
+                        <p class="watch-price">12 500 €</p>
+                    </div>
+                </a>
+                <a href="produit.html?id=audemars-piguet-1" class="watch-card">
+                    <div class="watch-image">
+                        <img src="piguetmontre/montrepig1.jpg" alt="Audemars Piguet Royal Oak Offshore Chronographe">
+                    </div>
+                    <div class="watch-info">
+                        <h3 class="watch-name">Audemars Piguet Royal Oak Offshore Chronographe</h3>
+                        <p class="watch-price">33 000 €</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.jpg" alt="Notam Watches" class="footer-logo">
+                    <p class="footer-tagline">L'élégance du temps</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="achat.html">Achat</a></li>
+                            <li><a href="vente.html">Vente</a></li>
+                            <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                            <li><a href="nous-contacter.html">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Informations</h4>
+                        <ul>
+                            <li><a href="#">Conditions générales</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Contact</h4>
+                        <ul>
+                            <li>contact@notamwatches.fr</li>
+                            <li>+33 1 23 45 67 89</li>
+                            <li>Paris, France</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Notam Watches. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="loader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
