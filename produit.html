@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produit - Notam Watches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader-overlay" class="loader-overlay">
+        <img src="logo.jpg" alt="Notam Watches" class="loader-logo">
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <img src="logo.jpg" alt="Notam Watches" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-logo">
+                        <a href="index.html" class="nav-logo-link">
+                            <img src="logo.jpg" alt="Notam Watches" class="nav-menu-logo-img">
+                        </a>
+                    </li>
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="achat.html" class="nav-link">Achat</a></li>
+                    <li><a href="vente.html" class="nav-link">Vente</a></li>
+                    <li><a href="qui-sommes-nous.html" class="nav-link">Qui sommes nous</a></li>
+                    <li><a href="nous-contacter.html" class="nav-link">Nous contacter</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Product Section -->
+    <section class="product-page">
+        <div class="container">
+            <a href="achat.html" class="back-link">← Retour à la collection</a>
+            
+            <div class="product-content">
+                <div class="product-images">
+                    <div class="product-main-image">
+                        <img id="mainImage" src="rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg" alt="Rolex Datejust 126233">
+                        <video id="productVideo" class="product-video" controls muted>
+                            <source src="rolex gold/rolexgold.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="product-thumbnails" id="productThumbnails">
+                        <img class="thumbnail active" src="rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg" alt="Vue 1">
+                        <img class="thumbnail" src="rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf.jpg" alt="Vue 2">
+                        <img class="thumbnail" src="rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (1).jpg" alt="Vue 3">
+                        <img class="thumbnail" src="rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (2).jpg" alt="Vue 4">
+                        <div class="thumbnail thumbnail-video" id="videoThumbnail">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-details">
+                    <h1 class="product-title" id="productTitle">Classique Élégance</h1>
+                    <p class="product-price" id="productPrice">2 500 €</p>
+                    <p class="product-reference">Référence : <span id="productRef">NOTAM-001</span></p>
+                    
+                    <div class="product-description">
+                        <h2>Description</h2>
+                        <p id="productDescription">
+                            Cette montre automatique allie élégance intemporelle et savoir-faire horloger suisse. 
+                            Son boîtier en acier inoxydable abrite un mouvement mécanique de précision. 
+                            Le cadran sobre et raffiné est protégé par un verre saphir antireflet.
+                        </p>
+                    </div>
+                    
+                    <div class="product-specs">
+                        <h2>Caractéristiques</h2>
+                        <ul id="productSpecs">
+                            <li><strong>Mouvement :</strong> Automatique suisse</li>
+                            <li><strong>Boîtier :</strong> Acier inoxydable 40mm</li>
+                            <li><strong>Verre :</strong> Saphir antireflet</li>
+                            <li><strong>Étanchéité :</strong> 50 mètres</li>
+                            <li><strong>Bracelet :</strong> Cuir italien</li>
+                            <li><strong>Garantie :</strong> 2 ans</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="product-actions">
+                        <a href="#" class="btn-primary" id="contactWhatsApp">Nous contacter</a>
+                    </div>
+                    
+                    <div class="product-guarantees">
+                        <div class="guarantee-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Authenticité garantie</span>
+                        </div>
+                        <div class="guarantee-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                            <span>Livraison sécurisée</span>
+                        </div>
+                        <div class="guarantee-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>Service premium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.jpg" alt="Notam Watches" class="footer-logo">
+                    <p class="footer-tagline">L'élégance du temps</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="achat.html">Achat</a></li>
+                            <li><a href="vente.html">Vente</a></li>
+                            <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                            <li><a href="nous-contacter.html">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Informations</h4>
+                        <ul>
+                            <li><a href="#">Conditions générales</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Contact</h4>
+                        <ul>
+                            <li>contact@notamwatches.fr</li>
+                            <li>+33 1 23 45 67 89</li>
+                            <li>Paris, France</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Notam Watches. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="loader.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Product data
+        const products = {
+            'rolex-datejust-1': {
+                title: 'Rolex Datejust 126233',
+                price: 'Sur demande',
+                ref: 'ROLEX-126233-1',
+                description: 'Élégance intemporelle. La Rolex Datejust 126233 représente un parfait équilibre entre raffinement et performance. Cette pièce d\'exception incarne l\'excellence horlogère suisse avec son mouvement automatique certifié chronomètre.',
+                specs: [
+                    { label: 'Mouvement', value: 'Automatique Rolex Calibre 3235' },
+                    { label: 'Boîtier', value: 'Or jaune 18 carats et acier Oystersteel 36mm' },
+                    { label: 'Verre', value: 'Saphir avec loupe Cyclope' },
+                    { label: 'Étanchéité', value: '100 mètres' },
+                    { label: 'Bracelet', value: 'Jubilé en or jaune et acier' },
+                    { label: 'Garantie', value: 'Certificat Rolex' }
+                ],
+                image: 'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg',
+                thumbnails: [
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf.jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (1).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (2).jpg'
+                ]
+            },
+            'rolex-datejust-2': {
+                title: 'Rolex Datejust 126233',
+                price: 'Sur demande',
+                ref: 'ROLEX-126233-2',
+                description: 'Élégance intemporelle. La Rolex Datejust 126233 représente un parfait équilibre entre raffinement et performance. Cette pièce d\'exception incarne l\'excellence horlogère suisse avec son mouvement automatique certifié chronomètre.',
+                specs: [
+                    { label: 'Mouvement', value: 'Automatique Rolex Calibre 3235' },
+                    { label: 'Boîtier', value: 'Or jaune 18 carats et acier Oystersteel 36mm' },
+                    { label: 'Verre', value: 'Saphir avec loupe Cyclope' },
+                    { label: 'Étanchéité', value: '100 mètres' },
+                    { label: 'Bracelet', value: 'Jubilé en or jaune et acier' },
+                    { label: 'Garantie', value: 'Certificat Rolex' }
+                ],
+                image: 'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (1).jpg',
+                thumbnails: [
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf.jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (1).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (2).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg'
+                ]
+            },
+            'rolex-datejust-3': {
+                title: 'Rolex Datejust 126233',
+                price: 'Sur demande',
+                ref: 'ROLEX-126233-3',
+                description: 'Élégance intemporelle. La Rolex Datejust 126233 représente un parfait équilibre entre raffinement et performance. Cette pièce d\'exception incarne l\'excellence horlogère suisse avec son mouvement automatique certifié chronomètre.',
+                specs: [
+                    { label: 'Mouvement', value: 'Automatique Rolex Calibre 3235' },
+                    { label: 'Boîtier', value: 'Or jaune 18 carats et acier Oystersteel 36mm' },
+                    { label: 'Verre', value: 'Saphir avec loupe Cyclope' },
+                    { label: 'Étanchéité', value: '100 mètres' },
+                    { label: 'Bracelet', value: 'Jubilé en or jaune et acier' },
+                    { label: 'Garantie', value: 'Certificat Rolex' }
+                ],
+                image: 'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (2).jpg',
+                thumbnails: [
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf.jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (1).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (2).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg'
+                ]
+            },
+            'rolex-datejust-4': {
+                title: 'Rolex Datejust 126233',
+                price: 'Sur demande',
+                ref: 'ROLEX-126233-4',
+                description: 'Élégance intemporelle. La Rolex Datejust 126233 représente un parfait équilibre entre raffinement et performance. Cette pièce d\'exception incarne l\'excellence horlogère suisse avec son mouvement automatique certifié chronomètre.',
+                specs: [
+                    { label: 'Mouvement', value: 'Automatique Rolex Calibre 3235' },
+                    { label: 'Boîtier', value: 'Or jaune 18 carats et acier Oystersteel 36mm' },
+                    { label: 'Verre', value: 'Saphir avec loupe Cyclope' },
+                    { label: 'Étanchéité', value: '100 mètres' },
+                    { label: 'Bracelet', value: 'Jubilé en or jaune et acier' },
+                    { label: 'Garantie', value: 'Certificat Rolex' }
+                ],
+                image: 'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg',
+                thumbnails: [
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf.jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (1).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (2).jpg',
+                    'rolex gold/Élégance intemporelle ✨ La Rolex Datejust 126233, un parfait équilibre entre raffinement et perf (3).jpg'
+                ]
+            },
+            'audemars-piguet-1': {
+                title: 'Audemars Piguet Royal Oak Offshore Chronographe',
+                price: '33 000 €',
+                ref: 'AP-26402CE',
+                description: 'Puissance et exclusivité. L\'Audemars Piguet Royal Oak Offshore 26402CE en céramique noire incarne l\'audace et la performance. Cette pièce d\'exception allie savoir-faire horloger suisse et design avant-gardiste.',
+                specs: [
+                    { label: 'Mouvement', value: 'Automatique Audemars Piguet Calibre 3126/3840' },
+                    { label: 'Boîtier', value: 'Céramique noire 44mm' },
+                    { label: 'Verre', value: 'Saphir antireflet' },
+                    { label: 'Étanchéité', value: '100 mètres' },
+                    { label: 'Bracelet', value: 'Caoutchouc noir avec boucle déployante' },
+                    { label: 'Garantie', value: 'Certificat Audemars Piguet' }
+                ],
+                image: 'piguetmontre/montrepig1.jpg',
+                thumbnails: [
+                    'piguetmontre/montrepig1.jpg',
+                    'piguetmontre/montrepig2.jpg',
+                    'piguetmontre/montrepig3.jpg',
+                    'piguetmontre/montrepig4.jpg',
+                    'piguetmontre/montrepig5.jpg'
+                ]
+            }
+        };
+
+        // Get product ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id') || 'rolex-datejust-1';
+        
+        // Load product data
+        const product = products[productId];
+        if (product) {
+            document.getElementById('productTitle').textContent = product.title;
+            document.getElementById('productPrice').textContent = product.price;
+            document.getElementById('productRef').textContent = product.ref;
+            document.getElementById('productDescription').textContent = product.description;
+            document.getElementById('mainImage').src = product.image;
+            document.getElementById('mainImage').alt = product.title;
+            
+            // Setup WhatsApp contact link
+            const whatsappLink = document.getElementById('contactWhatsApp');
+            if (whatsappLink) {
+                const productUrl = window.location.href;
+                const message = encodeURIComponent(`Bonjour, je suis intéressé(e) par cette montre : ${product.title} (${product.ref})\n\nLien : ${productUrl}`);
+                whatsappLink.href = `https://chat.whatsapp.com/FVKlHyI01yR5Cf4lfyL3A5?text=${message}`;
+                whatsappLink.target = '_blank';
+            }
+            
+            // Update specs
+            const specsList = document.getElementById('productSpecs');
+            specsList.innerHTML = product.specs.map(spec => 
+                `<li><strong>${spec.label} :</strong> ${spec.value}</li>`
+            ).join('');
+            
+            // Update thumbnails
+            if (product.thumbnails) {
+                const thumbnailsContainer = document.getElementById('productThumbnails');
+                const existingThumbnails = thumbnailsContainer.querySelectorAll('.thumbnail:not(.thumbnail-video)');
+                const videoThumbnail = document.getElementById('videoThumbnail');
+                
+                // Remove existing image thumbnails
+                existingThumbnails.forEach(thumb => thumb.remove());
+                
+                // Create new thumbnails for all images
+                product.thumbnails.forEach((thumbSrc, index) => {
+                    const thumb = document.createElement('img');
+                    thumb.className = 'thumbnail';
+                    if (index === 0) thumb.classList.add('active');
+                    thumb.src = thumbSrc;
+                    thumb.alt = `Vue ${index + 1}`;
+                    thumbnailsContainer.insertBefore(thumb, videoThumbnail);
+                });
+            } else {
+                document.querySelectorAll('.thumbnail:not(.thumbnail-video)').forEach(thumb => {
+                    thumb.src = product.image;
+                });
+            }
+        }
+        
+        // Thumbnail click handler
+        const mainImageContainer = document.querySelector('.product-main-image');
+        const mainImage = document.getElementById('mainImage');
+        const productVideo = document.getElementById('productVideo');
+        const videoThumbnail = document.getElementById('videoThumbnail');
+        
+        document.querySelectorAll('.thumbnail').forEach(thumb => {
+            thumb.addEventListener('click', function() {
+                if (this === videoThumbnail) {
+                    // Show video
+                    document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    mainImageContainer.classList.add('video-active');
+                    productVideo.play();
+                } else {
+                    // Show image
+                    document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    mainImageContainer.classList.remove('video-active');
+                    productVideo.pause();
+                    mainImage.src = this.src;
+                }
+            });
+        });
+        
+        // Pause video when switching to image
+        if (videoThumbnail) {
+            videoThumbnail.addEventListener('click', function() {
+                productVideo.currentTime = 0;
+            });
+        }
+    </script>
+</body>
+</html>

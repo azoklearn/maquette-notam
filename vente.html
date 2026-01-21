@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente - Notam Watches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader-overlay" class="loader-overlay">
+        <img src="logo.jpg" alt="Notam Watches" class="loader-logo">
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <img src="logo.jpg" alt="Notam Watches" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-logo">
+                        <a href="index.html" class="nav-logo-link">
+                            <img src="logo.jpg" alt="Notam Watches" class="nav-menu-logo-img">
+                        </a>
+                    </li>
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="achat.html" class="nav-link">Achat</a></li>
+                    <li><a href="vente.html" class="nav-link">Vente</a></li>
+                    <li><a href="qui-sommes-nous.html" class="nav-link">Qui sommes nous</a></li>
+                    <li><a href="nous-contacter.html" class="nav-link">Nous contacter</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Vendre votre Montre</h1>
+            <p class="page-subtitle">Obtenez la meilleure estimation pour votre pièce d'exception</p>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre Processus</h2>
+                <p class="section-subtitle">Simple, rapide et transparent</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Estimation</h3>
+                    <p class="step-text">
+                        Envoyez-nous les photos et informations de votre montre. 
+                        Nos experts vous fourniront une estimation gratuite sous 24h.
+                    </p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Authentification</h3>
+                    <p class="step-text">
+                        Nous vérifions l'authenticité de votre pièce dans notre atelier. 
+                        Expertise complète et certificat d'authenticité.
+                    </p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Transaction</h3>
+                    <p class="step-text">
+                        Une fois l'authenticité confirmée, nous vous proposons le meilleur prix. 
+                        Paiement sécurisé et immédiat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Demander une Estimation</h2>
+                <p class="section-subtitle">Remplissez le formulaire ci-dessous pour recevoir une estimation gratuite</p>
+            </div>
+            <form class="contact-form" id="sellForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="brand">Marque de la montre</label>
+                        <input type="text" id="brand" name="brand" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="model">Modèle</label>
+                        <input type="text" id="model" name="model" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Année (approximative)</label>
+                        <input type="text" id="year" name="year" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="condition">État de la montre</label>
+                    <select id="condition" name="condition" class="form-select" required>
+                        <option value="">Sélectionnez un état</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="tres-bon">Très bon</option>
+                        <option value="bon">Bon</option>
+                        <option value="correct">Correct</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="details">Détails supplémentaires (accessoires, boîte, papiers, etc.)</label>
+                    <textarea id="details" name="details" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="photos">Photos (vous pouvez nous les envoyer par email après)</label>
+                    <input type="file" id="photos" name="photos" multiple accept="image/*">
+                </div>
+                <button type="submit" class="btn-primary">Demander une estimation</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Why Sell Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Pourquoi vendre chez Notam Watches ?</h2>
+                    <div class="about-description">
+                        <p>
+                            Nous sommes spécialisés dans l'achat et la vente de montres de luxe authentiques. 
+                            Notre expertise nous permet de vous offrir les meilleurs prix du marché.
+                        </p>
+                        <p>
+                            Toutes nos transactions sont sécurisées et transparentes. Nous garantissons 
+                            un processus rapide et un paiement immédiat une fois l'authenticité confirmée.
+                        </p>
+                        <p>
+                            Notre équipe d'experts horlogers évalue chaque pièce avec précision, 
+                            en tenant compte de son état, de sa rareté et de sa valeur sur le marché.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1526045431048-f857369baa09?w=1200&q=80" alt="Expertise horlogère">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.jpg" alt="Notam Watches" class="footer-logo">
+                    <p class="footer-tagline">L'élégance du temps</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="achat.html">Achat</a></li>
+                            <li><a href="vente.html">Vente</a></li>
+                            <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                            <li><a href="nous-contacter.html">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Informations</h4>
+                        <ul>
+                            <li><a href="#">Conditions générales</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Contact</h4>
+                        <ul>
+                            <li>contact@notamwatches.fr</li>
+                            <li>+33 1 23 45 67 89</li>
+                            <li>Paris, France</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Notam Watches. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="loader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

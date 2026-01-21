@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Notam Watches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="home-page">
+    <!-- Loader -->
+    <div id="loader-overlay" class="loader-overlay">
+        <img src="logo.jpg" alt="Notam Watches" class="loader-logo">
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <img src="logo.jpg" alt="Notam Watches" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-logo">
+                        <a href="index.html" class="nav-logo-link">
+                            <img src="logo.jpg" alt="Notam Watches" class="nav-menu-logo-img">
+                        </a>
+                    </li>
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="achat.html" class="nav-link">Achat</a></li>
+                    <li><a href="vente.html" class="nav-link">Vente</a></li>
+                    <li><a href="qui-sommes-nous.html" class="nav-link">Qui sommes nous</a></li>
+                    <li><a href="nous-contacter.html" class="nav-link">Nous contacter</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted playsinline loop class="hero-image" id="hero-video">
+            <source src="hero2.MP4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">L'élégance à chaque <span class="handwritten">instant</span>.</h1>
+        </div>
+    </section>
+
+    <!-- Actions Section - Temporairement supprimée -->
+    <!--
+    <section class="actions-section">
+        <div class="container">
+            <div class="actions-tiles">
+                <a href="achat.html" class="action-tile">
+                    <h2 class="action-title">Notre stock</h2>
+                    <p class="action-description">Découvrez notre sélection de montres d'exception</p>
+                </a>
+                <a href="vente.html" class="action-tile">
+                    <h2 class="action-title">Vendre</h2>
+                    <p class="action-description">Obtenez la meilleure estimation pour votre montre</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Stock Section -->
+    <section class="stock-section">
+        <div class="container">
+            <h2 class="stock-section-title">Nos montres d'exceptions</h2>
+            <p class="stock-section-description">
+                <span class="text-line">Achat et vente de pièces horlogères</span>
+                <span class="text-line">d'exception</span>
+            </p>
+            <div class="stock-button-wrapper">
+                <a href="achat.html" class="btn-hero-stock">Acheter</a>
+                <a href="vente.html" class="btn-hero-stock">Vendre</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engagements Section -->
+    <section class="commitments">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Engagements</h2>
+            </div>
+            <div class="commitments-grid">
+                <div class="commitment-card">
+                    <div class="commitment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="commitment-title">Authenticité Garantie</h3>
+                    <p class="commitment-text">
+                        Chaque pièce est authentifiée par nos experts. 
+                        Certificat d'authenticité inclus avec chaque achat.
+                    </p>
+                </div>
+                <div class="commitment-card">
+                    <div class="commitment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="commitment-title">Livraison Sécurisée</h3>
+                    <p class="commitment-text">
+                        Emballage premium et transport assuré. 
+                        Suivi en temps réel de votre commande.
+                    </p>
+                </div>
+                <div class="commitment-card">
+                    <div class="commitment-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="commitment-title">Service Premium</h3>
+                    <p class="commitment-text">
+                        Accompagnement personnalisé et service après-vente dédié. 
+                        Votre satisfaction est notre priorité.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.jpg" alt="Notam Watches" class="footer-logo">
+                    <p class="footer-tagline">L'élégance du temps</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="achat.html">Achat</a></li>
+                            <li><a href="vente.html">Vente</a></li>
+                            <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                            <li><a href="nous-contacter.html">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Informations</h4>
+                        <ul>
+                            <li><a href="#">Conditions générales</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Contact</h4>
+                        <ul>
+                            <li>contact@notamwatches.fr</li>
+                            <li>+33 1 23 45 67 89</li>
+                            <li>Paris, France</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Notam Watches. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="loader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
